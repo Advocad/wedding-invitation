@@ -1,0 +1,62 @@
+.container {
+  margin-top: 100px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 79px;
+  text-align: center;
+  padding: 47px 0 34px;
+  background: #D9C9CA;
+  margin-bottom: 72px;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+    line-height: normal;
+    padding: 34px 5px 34px;
+    margin-bottom: 55px;
+  }
+}
+
+.description {
+  font-family: 'TT Drugs';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 90px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom: 55px;
+  }
+}
+
+.common_color {
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  
+}
+
+.color {
+  background: #B5C7CB;
+  border: 1px solid #000000;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+}

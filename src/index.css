@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Cremona';
+  src: local('Cremona'), url('./fonts/Cremona/Cremona4.ttf') format('ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Cremona Rus';
+  src: local('Cremona'), url('./fonts/Cremona/CremonaSansRUS.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'TT Drugs';
+  src: local('TT Drugs Light'), local('./fonts/TT Drugs/TT-Drugs-Light'),
+      url('./fonts/TT Drugs/TTDrugs-Light.woff2') format('woff2'),
+      url('./fonts/TT Drugs/TTDrugs-Light.woff') format('woff'),
+      url('./fonts/TT Drugs/TTDrugs-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Almost';
+  src: local('Almost'), url('./fonts/Almost/AlmostThere.otf') format('otf');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Cormorant SC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

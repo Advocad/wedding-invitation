@@ -1,0 +1,73 @@
+.container {
+  margin-top: 136px;
+  position: relative;
+
+  &::before {
+    content: '';
+    top: -275px;
+    right: 0px;
+    position: absolute;
+    background: url('../../images/together.png');
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 360px;
+    z-index: -1;
+
+    @media (max-width: 768px) {
+      top: -133px;
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+    }
+  }
+}
+
+.title {
+  padding: 50px 0 31px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 79px;
+  text-align: center;
+  background: #D9C9CA;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+    line-height: normal;
+    padding: 34px 5px 34px;
+  }
+}
+
+.description {
+  margin-top: 133px;
+  margin-bottom: 85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+
+    @media (max-width: 768px) {
+      margin-top: 70px;
+      margin-bottom: 55px;
+      font-size: 24px;
+      line-height: normal;
+    }
+}
+
+.text {
+  font-family: 'TT Drugs';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    line-height: normal;
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,99 @@
+.container {
+  margin-top: 90px;
+
+  @media (max-width: 768px) {
+    margin-top: 80px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 79px;
+  text-align: center;
+  padding: 47px 0 34px;
+  background: #D9C9CA;
+  margin-bottom: 72px;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+    line-height: normal;
+    padding: 34px 5px 34px;
+    margin-bottom: 55px;
+  }
+}
+
+.description {
+  font-family: 'TT Drugs';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 90px;
+
+  @media (max-width: 768px) {
+    margin: 55px 10px;
+    font-size: 25px;
+    line-height: normal;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+
+  button:first-child {
+    background: #D9C9CA;
+  }
+
+  button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #D3DDE2;
+    padding: 47px 0 37px;
+    min-width: 580px;
+    border: none;
+    font-family: 'Cormorant SC', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+
+    @media (max-width: 768px) {
+      font-size: 32px;
+      line-height: normal;
+      min-width: auto;
+      width: 280px;
+      margin: auto;
+      margin-bottom: 10px;
+      padding: 25px 0 15px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.ps {
+  font-family: 'TT Drugs';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    font-size: 27px;
+    line-height: normal;
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+}
