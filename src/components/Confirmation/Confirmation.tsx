@@ -8,7 +8,7 @@ export const Confirmation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>подтвердите присутствие</div>
-      <div className={styles.description}>P.S. Если по каким-то причинам у Вас не получится присутствовать на нашей свадьбе, то вы нам больше не друзья.</div>
+      <div className={styles.description}>P.S. Если по каким-то причинам у Вас не получится присутствовать на нашей свадьбе, то вы нам больше <strong>не друзья</strong>.</div>
       <div className={styles.buttons}>
         <button onClick={handleClick}>подтвердить</button>
         <button disabled>не друзья</button>

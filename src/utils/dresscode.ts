@@ -1,0 +1,1 @@
+export const dresscode = ['#000', '#D1C4BC', '#EDE2DE', '#F2E9DD', '#D6D6D6']

@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useParams } from "react-router-dom";
-import { OurWedding, Guest, Place, Essence, Program, DressCode, Confirmation } from "../../components"
+import { OurWedding, Guest, Place, Essence, Program, DressCode, Confirmation, WithoutFlowers } from "../../components"
 import { IUser, users } from "../../utils/users";
 
 export const User = () => {
@@ -11,12 +11,13 @@ export const User = () => {
   return (
     <div>
       <OurWedding />
-      <Guest  name={user.name} />
+      <Guest  name={user.name} rule={user.rule} />
       <Place />
       <Essence />
       <Program />
       <DressCode />
       <Confirmation />
+      <WithoutFlowers />
     </div>
   )
 }

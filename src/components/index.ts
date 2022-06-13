@@ -5,3 +5,4 @@ export * from './Essence';
 export * from './Program';
 export * from './DressCode';
 export * from './Confirmation';
+export * from './WithoutFlowers';
