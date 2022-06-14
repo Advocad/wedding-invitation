@@ -3,7 +3,7 @@ import styles from './Confirmation.module.scss'
 
 export const Confirmation = () => {
   const handleClick = useCallback(() => {
-    return window.location.href = 'https://chat.whatsapp.com/FWb7x1TcB1QATCNqr0Nyhs'
+    return window.location.href = 'https://chat.whatsapp.com/invite/FWb7x1TcB1QATCNqr0Nyhs'
   }, [])
   return (
     <div className={styles.container}>
