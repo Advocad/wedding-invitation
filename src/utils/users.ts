@@ -66,7 +66,7 @@ export const users: IUser[] = [
   },
   {
     id: '15',
-    name: 'Юра и Залия'
+    name: 'Юрий и Залия'
   },
   {
     id: '17',
