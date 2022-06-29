@@ -171,4 +171,8 @@ export const users: IUser[] = [
     name: 'Елена',
     rule: 'Дорогая'
   },
+  {
+    id: '44',
+    name: 'Мария и Дина',
+  },
 ]
